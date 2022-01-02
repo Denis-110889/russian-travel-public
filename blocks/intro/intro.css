@@ -1,0 +1,40 @@
+/* Верстка секции intro  ------------------------------------------------------------ */
+
+.intro {                              /* Контейнер секции  */
+    max-width: 690px;
+    margin: 0 auto;
+    padding: 92px 0;
+    margin-right: 33.25%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 0 auto;
+        margin-right: 27.92%;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        padding: 88px 0;
+        margin-right: 24px;
+    }
+} 
+
+@media screen and (max-width: 425px) {
+    .intro {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .intro {
+        max-width: 288px;
+        padding: 64px 0;
+    }
+} 

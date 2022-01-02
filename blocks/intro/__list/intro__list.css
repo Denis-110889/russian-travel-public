@@ -1,0 +1,16 @@
+/*---------------------------------------------------------------*/
+
+.intro__list {                       /* Список секции  */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+    line-height: 150%;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 288px;
+} 
+}

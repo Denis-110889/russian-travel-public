@@ -1,0 +1,50 @@
+/*---------------------------------------------------------------*/
+
+.lead__title {                 /* Самый главный заголовок */
+    
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 3.253%;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 104%;              
+}
+
+/*  Ниже реализовал плавный переход при растягивании страницы,
+    не знаю насколько оно нужно, но выглядит неплохо и верстка не ломается 
+    при растяжении, хотя медиа запросов конечно много */
+
+@media screen and (max-width: 680px) {
+    .lead__title {
+        font-size: 82px;
+    }
+} 
+
+@media screen and (max-width: 580px) {
+    .lead__title {
+        font-size: 70px;
+    }
+} 
+
+@media screen and (max-width: 490px) {
+    .lead__title {
+        font-size: 58px;
+        line-height: 120%; 
+    }
+} 
+
+@media screen and (max-width: 415px) {
+    .lead__title {
+        font-size: 50px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        font-size: 40px;
+        padding-bottom: 16px;
+        line-height: 110%;  
+    }
+} 

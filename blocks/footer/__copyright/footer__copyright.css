@@ -1,0 +1,19 @@
+.footer__copyright {            /* Настройк подписи */
+    margin: 0;
+    line-height: 114%;          /*Настройка по макету 16px or 114% */
+    font-size: 14px;
+}
+
+@media screen and (max-width: 680px) {
+    .footer__copyright {
+        margin-top: 18px;
+    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        margin-top: 48px;
+    
+    }
+}

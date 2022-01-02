@@ -1,0 +1,5 @@
+.header__lang-links {               
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;  /* выровнял с надписью Россия*/
+}

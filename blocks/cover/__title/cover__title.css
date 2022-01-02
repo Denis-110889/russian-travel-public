@@ -1,0 +1,43 @@
+.cover__title {
+    max-width: 560px;
+    padding: 0;
+    margin: 0 0 32px;
+    font-weight: 900;
+    line-height: 106%;
+    font-size: 72px;
+    text-align: center;
+    
+}
+
+/*Запросов конечно много, но достиг 
+плавности при адаптиве до маленького изображения -- думаю можно улучшить
+изменив отступы справа и слева и использовать функцию */
+
+@media screen and (max-width: 685px) {
+    .cover__title {
+        max-width: 380px;
+        font-size: 50px;
+    }
+} 
+
+@media screen and (max-width: 520px) {
+    .cover__title {
+        max-width: 300px;
+        font-size: 40px;
+    }
+} 
+
+@media screen and (max-width: 427px) {
+    .cover__title {
+        font-size: 38px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 288px;
+        line-height: 109%;
+        font-size: 32px;
+        margin-bottom: 16px;
+    } 
+}
