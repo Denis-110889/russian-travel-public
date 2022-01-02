@@ -1,6 +1,7 @@
 /*---------------------------------------------------------------*/
 
 .place__url-heading {           /* Секция с ссылками на карточке */
+    margin: 0;
     padding-bottom: 12px;
     text-transform: uppercase;
     font-weight: 400;
